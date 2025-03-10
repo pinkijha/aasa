@@ -17,7 +17,7 @@ const Main = () => {
       <Header />
 
       {/* Banner */}
-      <div className="flex flex-col items-center mb-4">
+      <div className="flex flex-col items-center mt-4 mb-4">
         <h1 className="md:text-[2.25rem] text-center text-[1.5rem] font-bold bg-gradient-to-r from-blue-600 to-pink-500 text-transparent bg-clip-text">Master the Art of Digital Illustration</h1>
         <h2 className="font-bold md:text-[2rem] text-center text-[1rem] md:mb-5 mb-4">A 4-Week Course Designed for Beginners & Enthusiasts!</h2>
         <img src={banner} className="mr-3" />

@@ -1,4 +1,5 @@
 import { Pencil, Paintbrush, Wrench, Image, Briefcase, DollarSign, Award, Folder, Mic } from "lucide-react";
+import { NavLink } from "react-router-dom";
 
 const ExtraFeatures = () => {
   const features = [
@@ -35,9 +36,11 @@ const ExtraFeatures = () => {
       </div>
 
       {/* Book Now Button */}
+      <NavLink to={'/business-identity'}>
       <button className="cursor-pointer mt-5 px-6 py-3 text-white text-lg font-semibold rounded-lg bg-gradient-to-r from-blue-600 to-pink-600 shadow-md">
         Book Now for ₹79
       </button>
+      </NavLink>
     </div>
   );
 };

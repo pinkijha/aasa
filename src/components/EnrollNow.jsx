@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 
 const EnrollNow = () => {
     return (
@@ -34,9 +35,11 @@ const EnrollNow = () => {
           </div>
     
           {/* CTA Button */}
-          <button className="mt-5 px-6 py-3 text-white font-semibold rounded-lg shadow-lg bg-gradient-to-r from-blue-600 to-pink-600">
+          <NavLink to={'/business-identity'}>
+          <button className="mt-5 px-6 py-3 cursor-pointer text-white font-semibold rounded-lg shadow-lg bg-gradient-to-r from-blue-600 to-pink-600">
             Book Now for ₹79
           </button>
+          </NavLink>
         </div>
       );
 }

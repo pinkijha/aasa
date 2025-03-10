@@ -1,12 +1,15 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const OfferSection = () => {
   return (
     <div className="flex flex-col items-center justify-center  bg-gradient-to-b from-white to-blue-100 px-4 text-center">
       {/* Gradient Button */}
+      <NavLink to={'/business-identity'}>
       <button className="cursor-pointer bg-gradient-to-r from-blue-600 to-pink-500 text-white font-bold md:py-3 py-3 md:px-6 px-3 rounded-full shadow-lg text-sm md:text-xl">
         Secure Your Spot for Just ₹79
       </button>
+      </NavLink>
 
       {/* Subtext */}
       <p className="mt-3 text-gray-700 text-sm md:text-base">
